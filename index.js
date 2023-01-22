@@ -105,27 +105,10 @@ function checkPasswords() {
 
 function formSubmission() {
     if (checkName() && checkEmail() && checkPassLength() && checkPassLength() && checkPassLength()) {
-        //alert("Successful subscription! Form Submitted! Thank you!");
-        Swal.fire({
-            title: "Good job!",
-            text: "You clicked the button!",
-            type: "success",
-            passive: true,
-            showConfirmButton: false,
-            timer: 2000,
-        });
+        alert("Successful subscription! Form Submitted! Thank you!");
     } else {
-        //alert("There are empty or invalid fields. Please try again.");
-        Swal.fire({
-            title: "Good job!",
-            text: "You clicked the button!",
-            type: "success",
-            passive: true,
-            showConfirmButton: false,
-            timer: 2000,
-        });
+        alert("There are empty or invalid fields. Please try again.");
     }
-
 }
 
 

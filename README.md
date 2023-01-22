@@ -1,11 +1,10 @@
-
-# 💻 Samsung Developer Women 
+# 💻 Samsung Developer Women
 
 ![Samsung-developers](./images/20222_desarrolladoras.jpg)
 
-# 🏛️ Bejob - Camilo Jose Cela University 
+# 🏛️ Bejob - Camilo Jose Cela University
 
-## 📜 Front End Development. Level 2. Ed 2022 
+## 📜 Front End Development. Level 2. Ed 2022
 
 ### 🎓 Final Lab: Dynamic Form 📝
 
@@ -19,7 +18,7 @@ Angel Garcia Lupiañez
 
 ![first-preview](./images/lab2image1.png)
 
-2. Validations 
+2. Validations
 
 - You must use the green color for the correct formats and the red color for the wrong ones.
 - All fields are required.
@@ -33,7 +32,7 @@ Angel Garcia Lupiañez
 
 ![email-validation](./images/lab2image3.png)
 
-1. Password validations
+4. Password validations
 
 - The password must have a max length of 8 characters.
 
@@ -45,17 +44,16 @@ Angel Garcia Lupiañez
 
 5. Finally, once all fields have been properly validated, and the user clicks on the submit button, an "Alert" message will inform the user about the successful registration.
 
-
 ### 🛠 Tools
 
-|Tool| Version|
-|----|--------|
-|HTML|5|
-|CSS|3|
-|JS| ES6|
+| Tool | Version |
+| ---- | ------- |
+| HTML | 5       |
+| CSS  | 3       |
+| JS   | ES6     |
 
 ### 🔑 License
 
 - [MIT License](LICENSE)
 
-## ⭐ Thanks Team and Mentors 🏅
+## ⭐ Thanks Team, Coordinators, and Mentors 🏅
