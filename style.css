@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(27, 27, 27);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(158, 158, 219);
+}
+
+
+div {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 3em;
+    height: 2em;
+    border-radius: 50%;
+    margin: 1em 1em 0.1em;
+}
+
+
+header h1 {
+    margin: 0.6em 0.1em;
+}
+
+ul {
+    margin: 0.2em 1.5em 0.2em;
+}
+
+li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1em;
+    padding: 1.5em 0.4em;
+    font-weight: bold;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+ul li .line {
+    display: block;
+    height: 2px;
+    width: 0;
+    transition: .2s;
+    background-color: rgb(158, 158, 219);
+}
+
+ul li:hover .line {
+    width: 100%;
+}
+
+
+section {
+    background: rgb(41, 39, 39);
+    border: 0.01px solid rgb(71, 70, 70);
+    border-radius: 5px;
+    margin: 9.5em auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.16);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: inherit;
+}
+
+
+h1,
+label,
+button,
+span {
+
+    background: inherit;
+}
+
+
+h1 {
+    margin-bottom: 2em;
+    font-size: 1.6em;
+}
+
+
+input {
+    background-color: white;
+    border-radius: 4px;
+    height: 3em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-left: 1em;
+
+}
+
+input[type="text"]:required:focus,
+input[type="email"]:required:focus,
+input[type="password"]:required:focus {
+    outline: none;
+}
+
+input::placeholder {
+    font-weight: 100;
+    opacity: 90%;
+}
+
+
+button {
+    height: 3.5em;
+    background-color: rgb(86, 86, 228);
+    border-radius: 4px;
+    color: white;
+    margin-top: 1em;
+    letter-spacing: 1.5px;
+    font-weight: lighter;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.16);
+    transition: transform .3s;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    opacity: 85%;
+}
+
+button:active {
+    background-color: rgb(41, 41, 121);
+    font-weight: bolder;
+    transform: scale(0.99);
+}
+
+
+input:focus::placeholder {
+    color: white;
+}
+
+
+span {
+    margin: -1.3rem 0.3rem 0.8rem 0;
+    color: hsl(0, 100%, 74%);
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    font-size: 12px;
+    padding: 1em;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.16);
+}
